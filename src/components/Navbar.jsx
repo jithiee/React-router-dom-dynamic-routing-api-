@@ -54,7 +54,16 @@ const Navbar = () => {
               border : isActive ? "1px solid green" : "" ,
               borderRadius : isActive ? "5px": "",
               })  }  >Products</NavLink>  </li>
-
+              
+               <li>  <NavLink to="/apiproducts" style={({isActive})=>({
+              color: isActive ? "burlywood" :'white' ,
+              textDecoration:'none', 
+              backgroundColor: isActive ? "blue" : "" , 
+              padding : isActive ? "5px" : "",
+              border : isActive ? "1px solid green" : "" ,
+              borderRadius : isActive ? "5px": "",
+              })  }  >API Products</NavLink>  </li>
+            
 
 
        </ul>
